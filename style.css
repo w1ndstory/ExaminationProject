@@ -1,0 +1,438 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+.font-burger{
+    font-family: "Superba Pro Bold", "Segoe UI", monospace;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    background: url("images/rectangle_6.jpg");
+    height: 825px;
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+#logo{
+    width: 180px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#delivery-content{
+    font-family: "Noyh Bold", "Courier New", monospace;
+    font-size: 20px;
+    position: absolute;
+    top: 80px;
+    right: 5%;
+}
+.panel-content{
+    font-family: "Parkson Semi Bold", "Courier New", monospace;
+    font-size: 20px;
+    position: relative;
+    left: 1070px;
+    margin-top: 130px;
+    margin-left: 45px;
+}
+#pre-content{
+    font-family: "Gala Condensed", "Courier New", monospace;
+    position: absolute;
+    font-size: 20px;
+    left: 52px;
+    top: 30%;
+    border: 1px dashed;
+    border-radius: 2px;
+}
+#burger-item-1{
+    position: absolute;
+    color: white;
+    font-size: 150px;
+    left: 44px;
+    top: 20%;
+}
+#burger-item-2{
+    position: absolute;
+    color: #52311e;
+    font-size: 150px;
+    left: 40px;
+    top: 20%;
+}
+#week-item-1{
+    position: absolute;
+    color: white;
+    font-size: 100px;
+    left: 54px;
+    top: 38%;
+}
+#week-item-2{
+    position: absolute;
+    color: #52311e;
+    font-size: 100px;
+    left: 50px;
+    top: 38%;
+}
+.head-images{
+    position: absolute;
+    height: 340px;
+}
+#burger-image-1{
+    top: 40%;
+    left: 65%;
+}
+#glow-image-1{
+    top: 15%;
+    left: 63%;
+    height: 400px;
+}
+#drinks-image-1{
+    top: 25%;
+    left: 80%;
+    height: 450px;
+}
+#frenchfries-image-1{
+    top: 29%;
+    left: 57%;
+    height: 400px;
+}
+#redmark-image-1{
+    height: 180px;
+    top: 60%;
+    left: 59%;
+}
+#express-image-1{
+    position: absolute;
+    top: 50px;
+    right: 485px;
+    height: 60px;
+}
+#redmark-image-content{
+    position: absolute;
+    color: white;
+    top: 605px;
+    left: 1175px;
+}
+#shadow-image-1{
+    position: absolute;
+    top: 700px;
+    right: 150px;
+}
+#shadow-image-2{
+    position: absolute;
+    top: 740px;
+    right: 300px;
+}
+#body-blocks{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#body-blocks-2{
+    flex-direction: column;
+}
+#body-blocks{
+    margin-top: 120px;
+    margin-left: 4%;
+}
+#body-first-block{
+    background: url("images/burger_image_3.png") no-repeat;
+    height: 420px;
+    width: 596px;
+}
+#body-first-block>span{
+    position: relative;
+    color: white;
+}
+#first-block-span1{
+    font-size: 20px;
+    top: 20px;
+    left: 20px;
+}
+#first-block-span2{
+    font-size: 26px;
+    top: 45px;
+    right: 120px;
+}
+#body-second-block{
+    margin-left: 60px;
+    background: url("images/image_3.png") no-repeat;
+    height: 192px;
+    width: 596px;
+}
+#body-second-block>span{
+    position: relative;
+    color: white;
+}
+#second-block-span1{
+    font-size: 20px;
+    top: 20px;
+    left: 20px;
+}
+#second-block-span2{
+    font-size: 26px;
+    top: 45px;
+    right: 120px;
+}
+#second-block-span3{
+    font-size: 26px;
+    top: 70px;
+    right: 263px;
+}
+#body-third-block{
+    margin-top: 36px;
+    margin-left: 60px;
+    background: url(images/image_2.png) no-repeat;
+    height: 192px;
+    width: 596px;
+}
+#body-third-block>span{
+    position: relative;
+    color: white;
+}
+#third-block-span1{
+    font-size: 20px;
+    top: 20px;
+    left: 20px;
+}
+#third-block-span2{
+    font-size: 26px;
+    top: 45px;
+    right: 120px;
+}
+#body-block-title{
+    position: relative;
+    padding-top: 10px;
+    width: 220px;
+    height: 30px;
+    top: 10%;
+    right: 85px;
+    background-color: #fcce0a;
+    text-align: center;
+}
+#body-content{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#body-content>h1{
+    font-size: 48px;
+    padding-left: 60px;
+}
+#body-content>p{
+    width: 950px;
+    text-align: center;
+}
+#burger-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 420px;
+}
+.burger-block{
+    position: relative;
+    padding: 30px;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.burger-block, .burger-block-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.burger-block-body>span{
+    text-align: center;
+    width: 300px;
+}
+.burger-block-body>button{
+    margin-top: 30px;
+}
+#fix-order-button{
+    margin-top: 40px;
+}
+.burger-block>.blockimage{
+    width: 16rem;
+}
+.red-order-button{
+    background-color: red;
+    border: 0px solid;
+    color: white;
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+}
+.fix-content-burger-block{
+    margin-top: 50px;
+}
+#discover-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 450px;
+    border: 0px solid;
+    box-shadow: 20px 20px 20px 0 grey;
+    width: 1080px;
+    height: 400px;
+}
+#discover-block>h1{
+    position: relative;
+    bottom: 40px;
+    font-size: 40px;
+    margin-left: 30px;
+}
+#discover-block>h3{
+    margin-top: 350px;
+    margin-left: 30px;
+}
+#discover-block>p{
+    position: relative;
+    bottom: 50px;
+    font-size: 19px;
+    width: 420px;
+    margin-left: 30px;
+}
+#burger-discover{
+    position: relative;
+    bottom: 300px;
+    left: 500px;
+    height: 380px;
+    width: 560px;
+}
+.circle-discover{
+    margin: 3px;
+    height: 20px;
+    width: 20px;
+}
+#discover-change-images{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    justify-content: center;
+    bottom: 380px;
+    left: 30px;
+}
+#reservation-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 880px;
+    width: auto;
+    height: 0;
+}
+#reservation-body>h1{
+    font-size: 22px;
+}
+#reservation-body>h2{
+    position: relative;
+    bottom: 45px;
+    font-size: 52px;
+}
+#reservation-body-blocks{
+    display: block;
+    flex-direction: column;
+    width: 550px;
+    height: 260px;
+}
+#reservation-body-blocks>input{
+    border: 1px solid darkgrey;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin: 5px;
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+}
+#reservation-button{
+    background-color: red;
+    color: white;
+    border: 1px solid transparent;
+    font-size: 18px;
+    width: 255px;
+    height: 40px;
+    margin: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#reservation-burger-image{
+    position: relative;
+    right: 43%;
+    bottom: 430px;
+}
+#reservation-bottle-image{
+    position: relative;
+    right: 35%;
+    bottom: 500px;
+}
+#reservation-burger2-image{
+    position: relative;
+    bottom: 800px;
+    left: 813px;
+}
+#footer{
+    background: url("images/place_your_design_here_do.png") no-repeat;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    height: 525px;
+    width: 1326px;
+}
+#footer-logo {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 320px;
+    height: 100px;
+}
+#footer>p{
+    color: white;
+    font-size: 19px;
+    width: 535px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#footer>span{
+    position: relative;
+    color: white;
+    left: 50px;
+    top: 30px;
+    font-size: 14px;
+    width: auto;
+}
+#footer-right-content>span{
+    position: relative;
+    color: white;
+    margin-left: 30px;
+    bottom: 10px;
+    font-size: 18px;
+    width: auto;
+}
+#location-img, #mail-img{
+    margin: 5px;
+    height: 26px;
+    width: 34px;
+}
+#footer-right-content{
+    position: relative;
+    max-width: 450px;
+    left: 65%;
+    bottom: 20%;
+}
+#footer-sites-images{
+    display: flex;
+    margin-left: auto;
+    margin-right: 50px;
+    width: auto;
+}
+.sites-images{
+    margin: 5px;
+}
